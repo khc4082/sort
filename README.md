@@ -67,6 +67,10 @@ public static void main(String[] args) {
 
 }
 ```
+### 결과
+
+![image](https://user-images.githubusercontent.com/80371590/116985934-1f376600-ad08-11eb-9b17-168ffd7b3480.png)
+
 ### 시간복잡도 
 
 - 비교 횟수
@@ -77,6 +81,8 @@ public static void main(String[] args) {
     외부 루프의 실행 횟수와 동일. 즉, 상수 시간 작업
     한 번 교환하기 위하여 3번의 이동(SWAP 함수의 작업)이 필요하므로 3(n-1)번
     T(n) = (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)
+    
+    
 
 ### 3. 삽입 정렬(Insertion Sort)
 
