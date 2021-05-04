@@ -13,8 +13,10 @@
 
 ### 소스
 ```java
-public static void BubleSort(int[] arr) {
+public static void BubbleSort(int[] arr) {
+
     for(int i = 0; i < arr.length; i++) {
+    
         for(int j = 0 ; j < arr.length - i - 1 ; j++) {
             if(arr[j] > arr[j+1]) {
                 int temp = arr[j+1];
@@ -52,7 +54,7 @@ public static void main(String[] args) {
                     min_index = j;
                 }
             }
-            // 스와프
+            
             int temp = arr[i];
             arr[i] = arr[min_index];
             arr[min_index] = temp;
