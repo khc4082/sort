@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ShellSort {
+public class BubbleSort {
 
     public static void main(String[] args){
 
