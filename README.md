@@ -180,14 +180,16 @@ private static void intervalSort(int[] arr, int start, int end, int interval) {
 - 평균: T(n) = `O(n^1.5)`
 - 최악의 경우: T(n) = `O(n^2)`
 
-### 정렬 별 장단점 비교
+
+
+### 각 정렬 별 장단점 비교
 
 ![image](https://user-images.githubusercontent.com/80371590/116981215-2b202980-ad02-11eb-81a1-e79597e213a1.png)
 
 
 
 
-### 정렬 별 시간복잡도 비교
+### 각 정렬 별 시간복잡도 비교
 
  | **이름** | **최선의 경우**	| **평균**	| **최악의 경우**	| **Run time** | 
  | ---- | ---- | ---- | ---- | ---- |
@@ -196,7 +198,7 @@ private static void intervalSort(int[] arr, int start, int end, int interval) {
  | 삽입 정렬 | n | n^2 | n^2 | 7.438 | 
  | 쉘 정렬 | n |	n^1.5	| n^2	| 0.056 |
  
-### 정렬 별 속도 비교
+### 각 정렬 별 속도 비교
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/80371590/116982472-cc5baf80-ad03-11eb-96bb-cd30c642087a.gif)
 
