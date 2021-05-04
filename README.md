@@ -114,6 +114,10 @@ public static void InsertSort(int[] arr) {
     }
 }
 ```
+### 결과
+
+![image](https://user-images.githubusercontent.com/80371590/116989087-3e37f700-ad0c-11eb-8cac-f0f5effb1cd1.png)
+
 
 ### 시간복잡도
 
