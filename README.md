@@ -67,7 +67,7 @@ public static void main(String[] args) {
 
 }
 ```
-
+### 시간복잡도 
 ### 3. 삽입 정렬(Insertion Sort)
 
   자료 배열의 모든 요소를 앞에서부터 차례대로 이미 정렬된 배열 부분과 비교하여, 자신의 위치를 찾아 삽입함으로써 정렬을 완성하는 알고리즘이다.
@@ -111,13 +111,48 @@ public static void InsertSort(int[] arr) {
 
 ## 소스
 ```java
+ private static void ShellSort(int[] arr) {
+
+        int arrSize = arr.length;
+        int interval = arrSize / 2;
+
+        while (interval >= 1) {
+            for (int i = 0; i < interval; i++) {
+                intervalSort(arr, i, arrSize - 1, interval);
+
+            }
+            output(arr, interval);
+            interval /= 2;
+
+        }
+    }
 ```
 
+```java
+
+private static void intervalSort(int[] arr, int start, int end, int interval) {
+
+        for (int i = start + interval; i <= end; i += interval) {
+            int item = arr[i];
+            int j = 0;
+            for (j = i - interval; j >= start && item < arr[j]; j -= interval) {
+                // arr[j]의 값이 크니까 삽입
+                arr[j + interval] = arr[j];
+            }
+            //삽입 끝낫으니 기억해둔 값 삽입
+            arr[j + interval] = item;
+        }
+    }
+```
+### 정렬 별 장단점 비교
+
+![image](https://user-images.githubusercontent.com/80371590/116981215-2b202980-ad02-11eb-81a1-e79597e213a1.png)
 
 
 
 
-### 시간복잡도 비교
+
+### 정렬 별 시간복잡도 비교
 
  | **이름** | **최선의 경우**	| **평균**	| **최악의 경우**	| **Run time** | 
  | ---- | ---- | ---- | ---- | ---- |
