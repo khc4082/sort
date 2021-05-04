@@ -1,7 +1,7 @@
 public class InsertionSort  {
     
     public static void main(String[] args) {
-        int[] arr = { 10, 2, 6, 4, 3, 7, 5 };
+        int[] arr = { 40, 10, 50, 90, 80, 30, 60 };
 
         for(int i : arr) {
             System.out.print(i + " ");
