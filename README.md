@@ -222,7 +222,11 @@ private static void intervalSort(int[] arr, int start, int end, int interval) {
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/80371590/116982472-cc5baf80-ad03-11eb-96bb-cd30c642087a.gif)
 
- 
+ ==> 결론,
+  - 버블정렬(Bubble sort) : 주어진 배열의 마지막 위치에 있는 요소를, 정렬되지 않은 직전 요소부터 첫 요소에 이르기까지 비교해 정렬 순서가 맞지 않은 모든 경우에 대해 요소 위치를 바꿔줌. 이를 요소 수만큼 반복. `가장 간단하지만 비효율적인 알고리즘`이다.
+  - 선택정렬(Selection Sort) : 요소 위치 변경 횟수를 줄여 버블정렬을 일부 개선한 알고리즘. 정렬 순서가 맞지 않으면 무조건 자리를 바꿔줬던 버블정렬과 달리, 1회 iteration마다 최소값(혹은 최대값)을 찾고 단 한번만 해당 요소 위치를 바꿔준다.
+  - 삽입정렬(insertion sort) : 모든 요소에 대해 앞에서부터 차례대로 이미 정렬된 배열(sorted list)과 비교하여 sorted list 내 자신의 위치를 찾아 삽입함으로써 정렬을 완성, 입력 데이터가 이미 정렬된 상태라면 O(n)의 빠른 속도를 보이지만 그렇지 않은 경우 다른 기법을 적용하는 것이 낫다.
+  - 쉘정렬(shell sort) : 정렬되지 않은 배열의 경우 비효율적인 삽입정렬을 개선한 기법. 주어진 배열의 일정 간격(gap)만큼의 요소들에 대해 삽입정렬을 반복 수행한다.
  
   
 
