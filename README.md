@@ -186,6 +186,11 @@ private static void intervalSort(int[] arr, int start, int end, int interval) {
     }
 ```
 
+### 결과
+
+![image](https://user-images.githubusercontent.com/80371590/116986399-b56b8c00-ad08-11eb-9e96-6b034b5a5b94.png)
+
+
 ### 시간복잡도
 
 - 평균: T(n) = `O(n^1.5)`
