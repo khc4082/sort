@@ -163,7 +163,7 @@ private static void intervalSort(int[] arr, int start, int end, int interval) {
  
 ### 정렬 별 속도 비교
 
-![image](https://user-images.githubusercontent.com/80371590/116982385-acc48700-ad03-11eb-89d3-be48cd71d9ca.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/80371590/116982472-cc5baf80-ad03-11eb-96bb-cd30c642087a.gif)
 
  
  
