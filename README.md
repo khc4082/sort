@@ -160,6 +160,13 @@ private static void intervalSort(int[] arr, int start, int end, int interval) {
  | 선택 정렬  |  n^2 	|  n^2	| n^2	| 10.842 |
  | 삽입 정렬 | n | n^2 | n^2 | 7.438 | 
  | 쉘 정렬 | n |	n^1.5	| n^2	| 0.056 |
+ 
+### 정렬 별 속도 비교
+
+![image](https://user-images.githubusercontent.com/80371590/116982385-acc48700-ad03-11eb-89d3-be48cd71d9ca.png)
+
+ 
+ 
   
 
  
