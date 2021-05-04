@@ -28,6 +28,11 @@ public static void BubbleSort(int[] arr) {
 }
 ```
 
+### 결과
+
+![image](https://user-images.githubusercontent.com/80371590/116986204-73424a80-ad08-11eb-8a05-e9dd60a4f6b5.png)
+
+
 ### 시간복잡도
 
 데이터의 개수를 n개라고 가정한다면, (n -1) + (n - 2) + ... + 2 + 1 => n(n - 1)/2이 되므로, `O(n^2)`만큼의 시간이 걸린다.
